@@ -123,9 +123,8 @@
                                       ${item.harga}
                                   </div>
                               </div>
-                              <button onclick='addToCart(${JSON.stringify({ nama: item.nama, harga: item.harga, foto: item.foto, hargaint: (item.harga.split(".").join("")) * 1, qty: 1 })})' href="${item.link}" class="addToCart btn btn-success w-100">
-                                  <i class="bi bi-cart4"></i> Add To Cart
-                              </button>
+                              <a href="${item.link}" class="btn btn-success w-100"><i class="bi bi-cart4"></i> Beli</a>
+
                           </div>
                       </div>
                   </div>`;
